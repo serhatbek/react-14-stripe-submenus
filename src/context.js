@@ -5,7 +5,7 @@ import { useState, createContext, useContext } from 'react';
 const AppContext = createContext();
 
 const AppContextProvider = ({ children }) => {
-  const [isSidebarOpen, setIsSidebarOpen] = useState(true);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const [isSubMenuOpen, setIsSubMenuOpen] = useState(true);
 
   const openSidebar = () => {
