@@ -4,7 +4,6 @@ import { useGlobalContext } from './context';
 
 const Sidebar = () => {
   const { isSidebarOpen } = useGlobalContext();
-  console.log(isSidebarOpen);
   return <h2>sidebar component</h2>;
 };
 
