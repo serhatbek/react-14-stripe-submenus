@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 
 const Submenu = () => {
-  return <div>Submenu</div>;
+  return <h2>submenu component</h2>;
 };
 
 export default Submenu;
