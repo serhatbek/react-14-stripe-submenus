@@ -6,8 +6,11 @@ const Navbar = () => {
   const { openSidebar, openSubMenu, closeSubMenu } = useGlobalContext();
 
   const displaySubmenu = (e) => {
-    console.log('hello');
-    openSubMenu();
+    const page = e.target.textContent;
+    const tempBtn = e.target.getBoundingClientRect();
+    const center = (tempBtn.left + tempBtn.right) / 2;
+    const bottom = tempBtn.bottom - 3;
+    openSubMenu(page, { center, bottom });
   };
 
   return (
