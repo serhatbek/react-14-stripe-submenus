@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-14-stripe-submenus/static/css/main.e9f8e3a4.css",
+    "main.js": "/react-14-stripe-submenus/static/js/main.0a9c8170.js",
+    "static/media/phone.svg": "/react-14-stripe-submenus/static/media/phone.94a7a4fe1f82aed65bc22c10a1c6d6ef.svg",
+    "static/media/logo.svg": "/react-14-stripe-submenus/static/media/logo.6ad422bb585e8c12e29343696a1349aa.svg",
+    "static/media/hero.svg": "/react-14-stripe-submenus/static/media/hero.acf1e00e9c9a661a4b0a.svg",
+    "index.html": "/react-14-stripe-submenus/index.html",
+    "main.e9f8e3a4.css.map": "/react-14-stripe-submenus/static/css/main.e9f8e3a4.css.map",
+    "main.0a9c8170.js.map": "/react-14-stripe-submenus/static/js/main.0a9c8170.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e9f8e3a4.css",
+    "static/js/main.0a9c8170.js"
+  ]
+}
